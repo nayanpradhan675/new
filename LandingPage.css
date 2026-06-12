@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.P_ax24VBSe1ji6-LdmBg-QHaDf?rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+    position: relative;
+    font-family: Arial;
+}
+.header{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.headerMenus ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: white;
+}
+.headerLogo img{
+    height: 80px;
+}
+.content{
+    text-align: center;
+    top: 30%;
+    position: relative; 
+}
+.contentTitle{
+    color: white;
+}
+.contentTitle h1{
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: rgb(4, 4, 88);
+}
